@@ -1,0 +1,4 @@
+Component 是定义一个对象接口，可以给这些对象动态的添加职责。
+ConcreteComponent 是定义了一个具体的对象，也可以给这个对象添加一些职责。
+Decorator 装饰抽象类，继承了Component,从外类来扩展Component类的功能，但对于Component来说，是无需知道Decorator 的存在的
+至于ConcreteDecorator 就是具体的装饰对象，起到给Component添加职责的功能
